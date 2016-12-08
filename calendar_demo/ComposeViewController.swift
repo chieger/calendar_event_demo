@@ -14,8 +14,6 @@ class ComposeViewController: UIViewController {
     @IBOutlet weak var titleTextView: UITextView!
     @IBOutlet weak var bodyTextView: UITextView!
 
-
-
     @IBAction func didTapPostToCalendar(_ sender: Any) {
         let eventStore = EKEventStore()
         let defaultCalendar = eventStore.defaultCalendarForNewEvents
@@ -39,25 +37,9 @@ class ComposeViewController: UIViewController {
         } catch {
             print(error.localizedDescription)
         }
-
-
     }
 
     @IBAction func didPressCancel(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-
 }

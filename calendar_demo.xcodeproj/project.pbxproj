@@ -101,11 +101,11 @@
 			children = (
 				ED6518051DF87F0A001B8F2D /* AppDelegate.swift */,
 				ED6518071DF87F0A001B8F2D /* ViewController.swift */,
+				EDD5312C1DF8D5F6008FCE02 /* ComposeViewController.swift */,
 				ED6518091DF87F0A001B8F2D /* Main.storyboard */,
 				ED65180C1DF87F0A001B8F2D /* Assets.xcassets */,
 				ED65180E1DF87F0A001B8F2D /* LaunchScreen.storyboard */,
 				ED6518111DF87F0A001B8F2D /* Info.plist */,
-				EDD5312C1DF8D5F6008FCE02 /* ComposeViewController.swift */,
 			);
 			path = calendar_demo;
 			sourceTree = "<group>";
