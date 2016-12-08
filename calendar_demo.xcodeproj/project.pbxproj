@@ -14,6 +14,7 @@
 		ED6518101DF87F0A001B8F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED65180E1DF87F0A001B8F2D /* LaunchScreen.storyboard */; };
 		ED65181B1DF87F0A001B8F2D /* calendar_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED65181A1DF87F0A001B8F2D /* calendar_demoTests.swift */; };
 		ED6518261DF87F0A001B8F2D /* calendar_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6518251DF87F0A001B8F2D /* calendar_demoUITests.swift */; };
+		EDD5312D1DF8D5F6008FCE02 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD5312C1DF8D5F6008FCE02 /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ED6518211DF87F0A001B8F2D /* calendar_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calendar_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6518251DF87F0A001B8F2D /* calendar_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar_demoUITests.swift; sourceTree = "<group>"; };
 		ED6518271DF87F0A001B8F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD5312C1DF8D5F6008FCE02 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				ED65180C1DF87F0A001B8F2D /* Assets.xcassets */,
 				ED65180E1DF87F0A001B8F2D /* LaunchScreen.storyboard */,
 				ED6518111DF87F0A001B8F2D /* Info.plist */,
+				EDD5312C1DF8D5F6008FCE02 /* ComposeViewController.swift */,
 			);
 			path = calendar_demo;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD5312D1DF8D5F6008FCE02 /* ComposeViewController.swift in Sources */,
 				ED6518081DF87F0A001B8F2D /* ViewController.swift in Sources */,
 				ED6518061DF87F0A001B8F2D /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				ED65182C1DF87F0A001B8F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED65182D1DF87F0A001B8F2D /* Build configuration list for PBXNativeTarget "calendar_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				ED65182F1DF87F0A001B8F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED6518301DF87F0A001B8F2D /* Build configuration list for PBXNativeTarget "calendar_demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				ED6518321DF87F0A001B8F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
