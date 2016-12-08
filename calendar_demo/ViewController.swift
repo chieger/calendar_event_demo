@@ -17,11 +17,6 @@ class ViewController: UIViewController {
     /// An array of calendars
     var calendars: [EKCalendar]?
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
     override func viewWillAppear(_ animated: Bool) {
         // Check for calendar authorization
         checkCalendarAuthorizationStatus()
@@ -65,7 +60,7 @@ class ViewController: UIViewController {
     func loadCalendars() {
 
     }
-    
+
     func presentCalendarAccessSettingsAlert() {
         let alertController = UIAlertController(title: "We need calendar access", message: "In order to post your diary entries to add 📔 entries your calendar, we need you to enable 📆 access in settings...please 🙏", preferredStyle: .alert)
         let settingsAlertAction = UIAlertAction(title: "Settings", style: .default, handler: { (UIAlertAction) in
@@ -82,12 +77,5 @@ class ViewController: UIViewController {
 
         self.present(alertController, animated: true, completion: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
 }
 
